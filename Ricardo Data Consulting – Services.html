@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ricardo Data Consulting – Conseil data et IA en Occitanie</title>
+<style>
+:root{
+  --bg:#ffffff;--text:#14171c;--muted:#5d6470;--line:#e3e5e9;--inv:#ffffff;
+  box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){--bg:#101216;--text:#eceef1;--muted:#98a0ac;--line:#262a31;--inv:#101216}
+}
+:root[data-theme="dark"]{--bg:#101216;--text:#eceef1;--muted:#98a0ac;--line:#262a31;--inv:#101216}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:17px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif}
+h1,h2,h3{font-family:Georgia,"Times New Roman",serif;font-weight:400;line-height:1.2;margin:0}
+p{margin:0 0 1em;max-width:60ch}
+a{color:var(--text);text-underline-offset:3px}
+a:focus-visible{outline:2px solid var(--text);outline-offset:4px}
+.wrap{max-width:760px;margin:0 auto;padding:0 24px}
+section{padding:56px 0;border-top:1px solid var(--line)}
+h2{font-size:clamp(1.5rem,4vw,1.9rem);margin-bottom:14px}
+.muted{color:var(--muted)}
+
+header{padding:72px 0 64px}
+.name{color:var(--muted);font-size:.95rem;margin-bottom:28px}
+h1{font-size:clamp(2.2rem,7vw,3.5rem);letter-spacing:-.015em;max-width:15ch}
+header p{color:var(--muted);font-size:1.12rem;margin:24px 0 32px}
+.btns{display:flex;flex-wrap:wrap;align-items:center;gap:14px 26px}
+.btn{display:inline-block;padding:13px 24px;background:var(--text);color:var(--inv);text-decoration:none;font-weight:600;border-radius:4px}
+.btn:focus-visible{outline:2px solid var(--text);outline-offset:3px}
+
+.offer{padding:26px 0;border-bottom:1px solid var(--line)}
+.offer:first-of-type{margin-top:18px;border-top:1px solid var(--line)}
+.offer h3{font-size:1.35rem;margin-bottom:4px}
+.price{font-family:Georgia,serif;font-size:1.5rem;margin:2px 0 10px}
+.price small{font-family:inherit;font-size:.9rem;color:var(--muted);margin-left:8px}
+.offer p{margin-bottom:.6em;color:var(--muted)}
+.offer ul{margin:10px 0 0;padding-left:20px}
+.offer li{margin-bottom:4px}
+
+ol{margin:22px 0 0;padding-left:22px}
+ol li{margin-bottom:14px;padding-left:6px}
+ol b{font-weight:600}
+ol span{color:var(--muted)}
+
+.tools{color:var(--muted)}
+address{font-style:normal;margin-top:18px}
+
+footer{padding:28px 0 40px;border-top:1px solid var(--line);color:var(--muted);font-size:.88rem}
+footer p{margin:0 0 .4em;max-width:none}
+@media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <div class="name">Ricardo Data Consulting, Toulouse et Occitanie</div>
+    <h1>Vos données valent plus que vos tableurs.</h1>
+    <p>J'aide les PME et ETI d'Occitanie à savoir ce que contiennent leurs données, ce qui les rend peu fiables, et quoi en faire en premier.</p>
+    <div class="btns">
+      <a class="btn" href="#contact">Réserver un échange gratuit</a>
+      <a href="#offres">Voir les offres</a>
+    </div>
+  </div>
+</header>
+
+<main>
+<section id="offres">
+  <div class="wrap">
+    <h2>Les offres</h2>
+    <p class="muted">Un périmètre et un prix annoncés avant de commencer.</p>
+
+    <div class="offer">
+      <h3>Audit de données en 5 jours</h3>
+      <div class="price">2 000 €<small>forfait, TVA non applicable</small></div>
+      <p>Le bon point de départ si vous avez des données mais pas de vision d'ensemble, ou si vous hésitez à lancer un projet de tableau de bord ou d'IA.</p>
+      <ul>
+        <li>Cartographie des sources de données, des flux et des responsables</li>
+        <li>Diagnostic de qualité : doublons, trous, incohérences, classés par impact</li>
+        <li>Gains rapides réalisables en quelques semaines</li>
+        <li>Feuille de route chiffrée, projets priorisés par effort et bénéfice</li>
+      </ul>
+    </div>
+
+    <div class="offer">
+      <h3>Tableau de bord décisionnel sur mesure</h3>
+      <div class="price">4 000 à 6 000 €<small>selon le périmètre, 10 à 15 jours</small></div>
+      <p>Un tableau de bord Power BI livré clé en main : modèle de données, indicateurs, mise en production et formation de vos utilisateurs.</p>
+    </div>
+
+    <div class="offer">
+      <h3>Accompagnement mensuel</h3>
+      <div class="price">Sur devis<small>selon le volume de jours</small></div>
+      <p>Un temps réservé chaque mois pour faire avancer vos sujets data et IA : évolutions de tableaux de bord, qualité des données, nouveaux cas d'usage.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Le déroulé de l'audit</h2>
+    <p class="muted">Cinq jours répartis sur deux à trois semaines, sur site ou à distance.</p>
+    <ol>
+      <li><b>Cadrage, jour 1.</b> <span>Entretiens avec la direction et les métiers : objectifs, décisions à éclairer, irritants.</span></li>
+      <li><b>Cartographie et qualité, jours 2 et 3.</b> <span>Inventaire des sources et des outils, contrôle de la fiabilité des données.</span></li>
+      <li><b>Analyse, jour 4.</b> <span>Gains rapides et cas d'usage réalistes : automatisation, tableaux de bord, IA.</span></li>
+      <li><b>Restitution, jour 5.</b> <span>Présentation des résultats et de la feuille de route à vos équipes.</span></li>
+    </ol>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Qui vous accompagne</h2>
+    <p>Je suis Ricardo Tchakounte Kuebia, data scientist, titulaire d'un Master 2 en Ingénierie et Science des Données de l'Université Toulouse Jean Jaurès.</p>
+    <p>J'ai passé deux ans chez Enedis sur des projets décisionnels : modélisation de données, tableaux de bord Power BI, virtualisation de données avec Denodo, environnements Azure. Je travaille avec les équipes métier pour que les chiffres produits servent vraiment leurs décisions.</p>
+    <p class="tools">Power BI, DAX, Power Query, SQL, Python, Denodo, Azure, machine learning. <a href="https://linkedin.com/in/ricardo-kuebiatchakounte">Profil LinkedIn</a>.</p>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="wrap">
+    <h2>Parlons de vos données</h2>
+    <p class="muted">Un premier échange de 30 minutes, gratuit et sans engagement, pour vérifier que l'audit répond à votre besoin.</p>
+    <div class="btns">
+      <a class="btn" href="mailto:contact@ricardodataconsulting.fr?subject=Audit%20de%20donn%C3%A9es">Écrire par e-mail</a>
+    </div>
+    <address>contact@ricardodataconsulting.fr</address>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>Ricardo Tchakounte Kuebia, entrepreneur individuel, SIRET 130 530 389 00019.</p>
+    <p>TVA non applicable, article 293 B du CGI. Dispensé d'immatriculation au RCS et au RM.</p>
+  </div>
+</footer>
+
+</body>
+</html>
